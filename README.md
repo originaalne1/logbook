@@ -1,4 +1,4 @@
-# 🛠️ IT Hoolduspäevik Pro (v3.0)
+# 🛠️ IT Hoolduspäevik Pro (v4.1)
 
 IT Hoolduspäevik on Pythonis kirjutatud terviklik lahendus IT-hooldustööde, paranduste ja ülesannete haldamiseks. Rakendus pakub kahte kasutajaliidest ühes failis: kiiret CLI-d (käsurida) ja moodsat GUI-d (graafiline aken).
 
