@@ -52,6 +52,11 @@ class LogBookGUI:
         self.ent_title = ttk.Entry(inputs, width=25)
         self.ent_title.grid(row=0, column=1, padx=5, pady=5)
 
+        tk.Label(inputs, text="Tere, see on tekst", bg=COLORS["secondary"]).grid(row=1, column=0, sticky="w", padx=5)
+        self.tere_label = ttk.Entry(inputs, width=25)
+        self.tere_label.grid(row=0, column=10, padx=5, pady=5)
+
+
         tk.Label(inputs, text="Kirjeldus:", bg=COLORS["secondary"]).grid(row=0, column=2, sticky="w", padx=5)
         self.ent_desc = ttk.Entry(inputs, width=50)
         self.ent_desc.grid(row=0, column=3, padx=5, pady=5)

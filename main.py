@@ -57,10 +57,12 @@ def run_cli(lb):
 
 if __name__ == "__main__":
     lb = LogBook()
-
+    print("="*50)
+    print("Tere")
     print("Käivitan IT Hoolduspäeviku...")
     print("1 - Konsool (CLI)")
     print("2 - Graafiline liides (GUI) [Vaikimisi]")
+    print("="*50)
 
     m = input("Valik: ").strip()
 
